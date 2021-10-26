@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f3f1dd;
+}
+
+/*-- logo --*/
+
+.logo{
+    width: 120px;
+    height: 120px;
+    object-fit:cover;
+    border-radius:50%;
+    margin-top: 0;
+    margin-left: 0;
+    transition:all 0.3s ease;
+}
+
+.logo:hover{
+    
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+hr{
+    border-top: 2px dotted;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+/*-- End of logo --*/
+
+nav{
+    font-family: 'Josefin Slab';
+    font-weight: 600;
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav img{
+    width: 150px;
+  }
+  
+  .navlink{
+    flex: 1;
+    text-align: right;
+  }
+  
+  .navlink ul li{
+  list-style: none;
+  display:inline-block;
+  padding: 8px 12px;
+  position: relative;
+  }
+  
+  .navlink ul li a{
+    color:#6D9886;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .navlink ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #F98404;
+    display: block;
+    margin: auto;
+    transition: 1s;
+    
+  }
+  
+  .navlink ul li:hover::after{
+    width: 100%;
+    
+  }
+  
+  /*-- End of Navigation paenel --*/
+
+  .content{
+      margin-left: 150px;
+      margin-right: 150px;
+      justify-content: center;
+      text-align: justify;
+  }
+
+  .title{
+      text-align: center;
+      font-size: 50px;
+      color:#406340;
+      font-family: 'Lobster', cursive;
+      letter-spacing: 2.9px;
+  }
+
+  p{
+    font-family: 'Explora', cursive;
+    font-weight: 800;
+    line-height: 2;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+  }
+
+  .sub{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 1.9px;
+  }
